@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
 
 
                     Button(onClick = {
-                        throw RuntimeException("This is custom crash")
+
                     }) {
                         Text(text = "Click Here")
                     }
