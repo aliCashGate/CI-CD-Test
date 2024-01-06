@@ -12,12 +12,12 @@ jobs :
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.1
+
+      - name: Setup Java JDK
+        uses: actions/setup-java@v4.0.0
         with:
           java-version: '17'
           distribution: 'adopt'
-
-      - name: Setup Java JDK
-        uses: actions/setup-java@v3.13.0
 
       - name: Build with Gradke
         run: ./gradlew build
