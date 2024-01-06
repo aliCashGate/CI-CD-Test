@@ -12,19 +12,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.cashgate.citestapp.ui.theme.CITestAppTheme
-import com.microsoft.appcenter.AppCenter
-import com.microsoft.appcenter.analytics.Analytics
-import com.microsoft.appcenter.crashes.Crashes
-import java.lang.RuntimeException
 
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        AppCenter.start(
-            application, "511715c1-6d92-4cba-9fb3-389cd1224e8f",
-            Analytics::class.java, Crashes::class.java
-        )
+//        AppCenter.start(
+//            application, "511715c1-6d92-4cba-9fb3-389cd1224e8f",
+//            Analytics::class.java, Crashes::class.java
+//        )
 
         setContent {
             CITestAppTheme {
@@ -35,7 +31,6 @@ class MainActivity : ComponentActivity() {
                 ) {
 
 
-                    Analytics.trackEvent("My custom event");
 
 
                     Button(onClick = {
