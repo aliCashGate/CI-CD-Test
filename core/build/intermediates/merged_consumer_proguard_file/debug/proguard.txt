@@ -1,0 +1,72 @@
+
+-if class com.cashgate.core.responses.fetch_forms.FetchForm
+-keepnames class com.cashgate.core.responses.fetch_forms.FetchForm
+-if class com.cashgate.core.responses.fetch_forms.FetchForm
+-keep class com.cashgate.core.responses.fetch_forms.FetchFormJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+-if class com.cashgate.core.responses.fetch_forms.FetchForm
+-keepnames class kotlin.jvm.internal.DefaultConstructorMarker
+-if class com.cashgate.core.responses.fetch_forms.FetchForm
+-keepclassmembers class com.cashgate.core.responses.fetch_forms.FetchForm {
+    public synthetic <init>(java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Object,int,kotlin.jvm.internal.DefaultConstructorMarker);
+}
+
+-if class com.cashgate.core.responses.home.CategoriesData
+-keepnames class com.cashgate.core.responses.home.CategoriesData
+-if class com.cashgate.core.responses.home.CategoriesData
+-keep class com.cashgate.core.responses.home.CategoriesDataJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+-if class com.cashgate.core.responses.home.CategoriesData
+-keepnames class kotlin.jvm.internal.DefaultConstructorMarker
+-if class com.cashgate.core.responses.home.CategoriesData
+-keepclassmembers class com.cashgate.core.responses.home.CategoriesData {
+    public synthetic <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Boolean,int,java.util.List,java.lang.String,java.lang.Boolean,java.lang.Integer,int,kotlin.jvm.internal.DefaultConstructorMarker);
+}
+
+-if class com.cashgate.core.responses.login.LoginEntity
+-keepnames class com.cashgate.core.responses.login.LoginEntity
+-if class com.cashgate.core.responses.login.LoginEntity
+-keep class com.cashgate.core.responses.login.LoginEntityJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+
+-if class com.cashgate.core.responses.login.User
+-keepnames class com.cashgate.core.responses.login.User
+-if class com.cashgate.core.responses.login.User
+-keep class com.cashgate.core.responses.login.UserJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+-if class com.cashgate.core.responses.login.User
+-keepnames class kotlin.jvm.internal.DefaultConstructorMarker
+-if class com.cashgate.core.responses.login.User
+-keepclassmembers class com.cashgate.core.responses.login.User {
+    public synthetic <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker);
+}
+
+-if class com.cashgate.core.responses.property_detail.Image
+-keepnames class com.cashgate.core.responses.property_detail.Image
+-if class com.cashgate.core.responses.property_detail.Image
+-keep class com.cashgate.core.responses.property_detail.ImageJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+-if class com.cashgate.core.responses.property_detail.Image
+-keepnames class kotlin.jvm.internal.DefaultConstructorMarker
+-if class com.cashgate.core.responses.property_detail.Image
+-keepclassmembers class com.cashgate.core.responses.property_detail.Image {
+    public synthetic <init>(java.lang.String,java.lang.String,int,kotlin.jvm.internal.DefaultConstructorMarker);
+}
+
+-if class com.cashgate.core.responses.refresh_token.RefreshTokenEntity
+-keepnames class com.cashgate.core.responses.refresh_token.RefreshTokenEntity
+-if class com.cashgate.core.responses.refresh_token.RefreshTokenEntity
+-keep class com.cashgate.core.responses.refresh_token.RefreshTokenEntityJsonAdapter {
+    public <init>(com.squareup.moshi.Moshi);
+}
+-if class com.cashgate.core.responses.refresh_token.RefreshTokenEntity
+-keepnames class kotlin.jvm.internal.DefaultConstructorMarker
+-if class com.cashgate.core.responses.refresh_token.RefreshTokenEntity
+-keepclassmembers class com.cashgate.core.responses.refresh_token.RefreshTokenEntity {
+    public synthetic <init>(java.lang.String,java.lang.String,boolean,int,kotlin.jvm.internal.DefaultConstructorMarker);
+}
